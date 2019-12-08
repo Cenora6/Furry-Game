@@ -72,11 +72,11 @@ function Game() {
 
     this.checkCoinCollision = () => {
         if (document.querySelector(".furry") === document.querySelector(".coin")) {
+            this.score++;
             document.querySelector(".coin").classList.remove("coin");
+            document.querySelector("#score strong").innerHTML = this.score;
             this.coin = new Coin();
             this.showCoin();
-
-            document.querySelector("#score strong").innerText = this.score++;
         }
     };
 
@@ -109,3 +109,8 @@ game.showFurry();
 game.showCoin();
 game.startGame();
 game.hideVisibleFurry();
+
+const reload = document.querySelector('.secondary-text span');
+reload.addEventListener('click', function () {
+    location.reload();
+});

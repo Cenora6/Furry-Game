@@ -39,7 +39,8 @@ section#score div {
 }
 
 .furry {
-  background-image: url('../images/furry.png');
+  background-image: url('../images/giphy.gif');
+  width: 64px;
   background-repeat: no-repeat;
   background-size: cover;
 }

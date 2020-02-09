@@ -53,7 +53,7 @@ section#score div {
 }
 .coin {
   background-image: url('../images/cupcake.png');
-  width: 64px;
+  width: 40px;
   background-repeat: no-repeat;
   background-size: cover;
 }

@@ -1,5 +1,6 @@
 # Furry-Game
-Help the kitty eat all the cupcakes! (use arrow keys) :) 
+Help the kitty eat all the cupcakes! :) 
+> use the arrow keys
 
 ![](images/preview.png)
 

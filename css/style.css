@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-  background: linear-gradient(to top, #ffefba, #ffffff);
 }
 
 body {
@@ -10,6 +9,7 @@ body {
   height: 100vh;
   width: 100vw;
   overflow: hidden;
+  background: linear-gradient(to top, #ffefba, #ffffff);
 }
 
 section#score {

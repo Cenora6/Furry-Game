@@ -1,5 +1,8 @@
 # Furry-Game
-Control the Furry to get all the coins! :)
+Help the kitty eat all the cupcakes! :) 
+> use the arrow keys
+
+![](images/preview.png)
 
 ## Used: 
 - HTML
